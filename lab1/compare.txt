@@ -1,0 +1,88 @@
+Comparing files file1.txt and FILE2.TXT
+***** file1.txt
+HTTP/1.1 200 OK
+Date: Thu, 12 Jan 2023 00:23:04 GMT
+Server: Apache/2.4.6 (CentOS)
+***** FILE2.TXT
+HTTP/1.1 200 OK
+Date: Thu, 12 Jan 2023 00:23:31 GMT
+Server: Apache/2.4.6 (CentOS)
+*****
+
+***** file1.txt
+<H3>Form Contents:</H3>
+<DL>
+<DT>X: <i>&lt;type 'instance'&gt;</i>
+<DD>MiniFieldStorage('X', 'Y')
+</DL>
+***** FILE2.TXT
+<H3>Form Contents:</H3>
+<P>No form fields.
+<DL>
+</DL>
+*****
+
+***** file1.txt
+<DL>
+<DT> CONTENT_LENGTH <DD> 3
+<DT> CONTENT_TYPE <DD> application/x-www-form-urlencoded
+<DT> CONTEXT_DOCUMENT_ROOT <DD> /compsci/webdocs/hindle1/web_docs
+***** FILE2.TXT
+<DL>
+<DT> CONTEXT_DOCUMENT_ROOT <DD> /compsci/webdocs/hindle1/web_docs
+*****
+
+***** file1.txt
+<DT> REMOTE_ADDR <DD> 142.244.5.25
+<DT> REMOTE_PORT <DD> 8165
+<DT> REQUEST_METHOD <DD> POST
+<DT> REQUEST_SCHEME <DD> https
+***** FILE2.TXT
+<DT> REMOTE_ADDR <DD> 142.244.5.25
+<DT> REMOTE_PORT <DD> 8185
+<DT> REQUEST_METHOD <DD> GET
+<DT> REQUEST_SCHEME <DD> https
+*****
+
+***** file1.txt
+<DT> SSL_TLS_SNI <DD> webdocs.cs.ualberta.ca
+<DT> UNIQUE_ID <DD> Y79S6Dzc8tefmEM8@1T71wAAAAo
+</DL>
+***** FILE2.TXT
+<DT> SSL_TLS_SNI <DD> webdocs.cs.ualberta.ca
+<DT> UNIQUE_ID <DD> Y79TAzzc8tefmEM8@1T73AAAAAo
+</DL>
+*****
+
+***** file1.txt
+<DL>
+<DT> CONTENT_LENGTH <DD> 3
+<DT> CONTENT_TYPE <DD> application/x-www-form-urlencoded
+<DT> CONTEXT_DOCUMENT_ROOT <DD> /compsci/webdocs/hindle1/web_docs
+***** FILE2.TXT
+<DL>
+<DT> CONTEXT_DOCUMENT_ROOT <DD> /compsci/webdocs/hindle1/web_docs
+*****
+
+***** file1.txt
+<DT> REMOTE_ADDR <DD> 142.244.5.25
+<DT> REMOTE_PORT <DD> 8165
+<DT> REQUEST_METHOD <DD> POST
+<DT> REQUEST_SCHEME <DD> https
+***** FILE2.TXT
+<DT> REMOTE_ADDR <DD> 142.244.5.25
+<DT> REMOTE_PORT <DD> 8185
+<DT> REQUEST_METHOD <DD> GET
+<DT> REQUEST_SCHEME <DD> https
+*****
+
+***** file1.txt
+<DT> SSL_TLS_SNI <DD> webdocs.cs.ualberta.ca
+<DT> UNIQUE_ID <DD> Y79S6Dzc8tefmEM8@1T71wAAAAo
+</DL>
+***** FILE2.TXT
+<DT> SSL_TLS_SNI <DD> webdocs.cs.ualberta.ca
+<DT> UNIQUE_ID <DD> Y79TAzzc8tefmEM8@1T73AAAAAo
+</DL>
+*****
+

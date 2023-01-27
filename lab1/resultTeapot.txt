@@ -1,0 +1,16 @@
+HTTP/1.1 418 I'm a Teapot
+Content-Type: text/html; charset=ISO-8859-1
+Content-Security-Policy: object-src 'none';base-uri 'self';script-src 'nonce-U73vV576ScuZbskj5UoNFw' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/xsrp
+Cross-Origin-Opener-Policy: same-origin-allow-popups; report-to="gws"
+Report-To: {"group":"gws","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/gws/xsrp"}]}
+Date: Thu, 12 Jan 2023 00:57:08 GMT
+Server: gws
+Cache-Control: private
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+Accept-Ranges: none
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+
+<!doctype html><html lang="en"> <script nonce="U73vV576ScuZbskj5UoNFw">(function(H){H.className=H.className.replace(/\bgoogle\b/,'google-js')})(document.documentElement)</script> <meta charset="utf-8"> <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport"> <title>Error 418 (I&#8217;m a teapot)!?</title> <link href="//www.gstatic.com/teapot/teapot.min.css" rel="stylesheet" nonce="U73vV576ScuZbskj5UoNFw"> <a href="https://www.google.com/"><span aria-label="Google" id="logo"></span></a> <p><b>418.</b> <ins>I&#8217;m a teapot.</ins></p> <p>The requested entity body is short and stout. <ins>Tip me over and pour me out.</ins></p> <div id="teaset"><div id="teabot"></div><div id="teacup"></div></div> <script src="//www.gstatic.com/teapot/teapot.min.js" nonce="U73vV576ScuZbskj5UoNFw"></script> </html>
